@@ -2,9 +2,7 @@
 @import 'variables';
 
 main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    @include primero;
     color: $TextColorOne;
     #section-two{
         color: $TextColortwo;

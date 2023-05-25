@@ -3,3 +3,8 @@ $titleColor: rgb(20, 220, 73);
 $TextColorOne: darkorchid;
 $TextColortwo: green;
 
+@mixin primero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
